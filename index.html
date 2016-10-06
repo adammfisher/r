@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-color-07cb79 theme-skin-light">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Adam Fisher</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.png"/>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/map-icons/css/map-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="colors/green.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Modernizer for detect what features the user’s browser has to offer -->
+    <script type="text/javascript" src="js/libs/modernizr.js"></script>
+</head>
+
+<body class="home header-has-img loading">
+
+    <div class="mobile-nav">
+        <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
+    
+        <div class="mobile-nav-inner">
+            <nav id="mobile-nav" class="nav">
+                <ul class="clearfix">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+
+
+                    <li><a href="#contact">Contact <span></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- .mobile-nav -->
+    
+    <div class="sidebar sidebar-fixed">
+        <button class="btn-sidebar btn-sidebar-close"><i class="rsicon rsicon-close"></i></button>
+    
+        <div class="widget-area">
+            <aside class="widget widget-profile">
+                <div class="profile-photo">
+                    <img src="img/uploads/rs-photo-v2.jpg" alt="Adam Fisher"/>
+                </div>
+                <div class="profile-info">
+                    <h2 class="profile-title">Adam Fisher</h2>
+    
+                    <h3 class="profile-position">Developer and Startup entrepreneur</h3>
+                </div>
+            </aside>
+            <!-- .widget-profile -->
+    
+            <aside class="widget widget_search">
+                <h2 class="widget-title">Search</h2>
+    
+                <form class="search-form">
+                    <label class="ripple">
+                        <span class="screen-reader-text">Search for:</span>
+                        <input class="search-field" type="search" placeholder="Search">
+                    </label>
+                    <input type="submit" class="search-submit" value="Search">
+                </form>
+            </aside>
+            <!-- .widget_search -->
+    
+            <aside class="widget widget_contact">
+                <h2 class="widget-title">Contact Me</h2>
+    
+                <form class="rsForm" action="php/mailsender.php" method="post">
+                    <div class="input-field">
+                        <label>Name</label>
+                        <input type="text" name="rsName" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Email</label>
+                        <input type="email" name="rsEmail" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Subject</label>
+                        <input type="text" name="rsSubject" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Message</label>
+                        <textarea rows="4" name="rsMessage"></textarea>
+                        <span class="line"></span>
+                    </div>
+    
+                    <span class="btn-outer btn-primary-outer ripple">
+                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                    </span>
+                </form>
+            </aside>
+            <!-- .widget_contact -->
+    
+            <aside class="widget widget-popuplar-posts">
+                <h2 class="widget-title">Popular posts</h2>
+                <ul>
+                    <li>
+                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""/></a></div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                    <li>
+                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""/></a></div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                    <li>
+                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""/></a></div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                </ul>
+            </aside>
+            <!-- .widget-popuplar-posts -->
+    
+            <aside class="widget widget_tag_cloud">
+                <h2 class="widget-title">Tag Cloud</h2>
+    
+                <div class="tagcloud">
+                    <a href="" title="1 topic">Business</a>
+                    <a href="" title="9 topics">City</a>
+                    <a href="" title="10 topics">Creative</a>
+                    <a href="" title="6 topics">Fashion</a>
+                    <a href="" title="2 topics">Music</a>
+                    <a href="" title="5 topics">News</a>
+                    <a href="" title="9 topics">Peoples</a>
+                </div>
+            </aside>
+            <!-- .widget_tag_cloud -->
+    
+            <aside class="widget widget-recent-posts">
+                <h2 class="widget-title">Recent posts</h2>
+                <ul>
+                    <li>
+                        <div class="post-tag">
+                            <a href="">#Photo</a>
+                            <a href="">#Architect</a>
+                        </div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                    <li>
+                        <div class="post-tag">
+                            <a href="">#Photo</a>
+                            <a href="">#Architect</a>
+                        </div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                    <li>
+                        <div class="post-tag">
+                            <a href="">#Photo</a>
+                            <a href="">#Architect</a>
+                        </div>
+                        <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+    
+                        <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
+                    </li>
+                </ul>
+            </aside>
+            <!-- .widget-recent-posts -->
+    
+            <aside class="widget widget_categories">
+                <h2 class="widget-title">Categories</h2>
+                <ul>
+                    <li><a href="" title="Architecture Category Posts">Architecture</a> (9)</li>
+                    <li><a href="" title="Business Category Posts">Business</a> (16)</li>
+                    <li><a href="" title="Creative Category Posts">Creative</a> (18)</li>
+                    <li><a href="" title="Design Category Posts">Design</a> (10)</li>
+                    <li><a href="" title="Development Category Posts">Development</a> (14)</li>
+                    <li><a href="" title="Education Category Posts">Education</a> (9)</li>
+                </ul>
+            </aside>
+            <!-- .widget_categories -->
+        </div>
+        <!-- .widget-area -->
+    </div>
+    <!-- .sidebar -->
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="head-bg" style="background-image: url('img/uploads/rs-cover.jpg')"></div>
+        
+            <div class="head-bar">
+                <div class="head-bar-inner">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+
+
+                        </div>
+        
+                        <div class="col-sm-9 col-xs-6">
+                            <div class="nav-wrap">
+                                <nav id="nav" class="nav">
+                                    <ul class="clearfix">
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#skills">Skills</a></li>
+
+                                        <li><a href="#experience">Experience</a></li>
+
+
+
+                                        <li><a href="#contact">Contact <span></span></a></li>
+                                    </ul>
+                                </nav>
+        
+                                <button class="btn-mobile btn-mobile-nav">Menu</button>
+
+                            </div>
+                            <!-- .nav-wrap -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- .header -->
+        
+        <div class="content">
+            <div class="container">
+    
+            <!-- START: PAGE CONTENT -->
+            <section id="about" class="section section-about">
+                <div class="animate-up">
+                    <div class="section-box">
+                        <div class="profile">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="profile-photo"><img src="img/uploads/rs-photo-v1.jpg" alt="Robert Smith"/></div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="profile-info">
+                                        <div class="profile-preword"><span>Hello</span></div>
+                                        <h1 class="profile-title"><span>I'm</span> Adam Fisher</h1>
+            
+                                        <h2 class="profile-position">Web / Mobile Developer & Strategist</h2></div>
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <strong class="title">Age</strong>
+                                            <span class="cont">43</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title">Address</strong>
+                                            <span class="cont">6911 Live Oaks Lane, Waxhaw, NC</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title">Current Position</strong>
+                                            <span class="cont"><a href="mailto:adamm733@gmail.com">Director, Mobile Development</a></span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title">E-mail</strong>
+                                            <span class="cont"><a href="mailto:adamm733@gmail.com">adamm733@gmail.com</a></span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong class="title">Phone</strong>
+                                            <span class="cont"><a href="tel:+17048064961">+1 704 806 4961</a></span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-social">
+                            <ul class="social">
+                                <li><a class="ripple-centered" href="https://www.facebook.com/adamm733" target="_blank"><i
+                                        class="rsicon rsicon-facebook"></i></a></li>
+
+                                <li><a class="ripple-centered" href="https://www.linkedin.com/in/adam-fisher-a2b14682" target="_blank"><i
+                                        class="rsicon rsicon-linkedin"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="section-txt-btn">
+                        <p><a class="btn btn-lg btn-border ripple" target="_blank"
+                              href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download Resume</a></p>
+
+                        <h1 class="profile-title">Top Talents:</h1>
+                        <p></p>
+                       <p>Developing web and mobile applications from a marketing point of view</p>
+                        <p>Crossing the intersection of user experience and user behavior</p>
+                        <p>Specializing in digital marketing strategy from a mobile perspective</p>
+                        <p>Specializing in web and hybrid mobile development that looks native (coding and architecture)</p>
+                        <p>Building software and software development teams</p>
+                        <p>Designing user interfaces as well as software architerctures (my preference is SOA / REST)</p>
+                        <p>Learning new ways to approach old problems</p>
+
+                    </div>
+                </div>
+            </section>
+            <!-- #about -->
+            
+            <section id="skills" class="section section-skills">
+                <div class="animate-up">
+                    <h2 class="section-title">Professional Skills - Marketing</h2>
+            
+                    <div class="section-box">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Marketing Technology Architecture</span>
+                                        <span class="bar-value">75%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Customer Development</span>
+                                        <span class="bar-value">90%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="90%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Team Building & Leadership</span>
+                                        <span class="bar-value">60%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="60%"></span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Channel Marketing (Mobile)</span>
+                                        <span class="bar-value">90%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="90%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Marketing Automation</span>
+                                        <span class="bar-value">75%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">UX Design</span>
+                                        <span class="bar-value">85%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="90%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">UX Architecture (journey, context, mobile moment)</span>
+                                        <span class="bar-value">99%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="99%"></span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Project Mangement</span>
+                                        <span class="bar-value">80%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="80%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="section section-skills">
+                <div class="animate-up">
+                    <h2 class="section-title">Professional Skills - Technical</h2>
+
+                    <div class="section-box">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Web Mobile (HTML, CSS, Javascript, jQuery, AngularJS, Ionic, Sencha, Bootstrap, SASS, Gulp, JSON, REST, Github, Cordova, Jasmine, JSP )</span>
+                                        <span class="bar-value">90%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="90%"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Mobile Native Engineering (Swift, Android Studio)</span>
+                                        <span class="bar-value">30%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="30%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Server / PAAS Platforms (Tomacat, Apache, NodeJS, Openshift, Firebase, Parse, PHP, Java, SOA)</span>
+                                        <span class="bar-value">60%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="60%"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Database Platforms (mySQL, PostgreSQL,  mongoDB)</span>
+                                        <span class="bar-value">60%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="60%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">Methodologies (AGILE, Rapid Prototyping, OOP, TDD) </span>
+                                        <span class="bar-value">99%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="99%"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="progress-bar">
+                                    <div class="bar-data">
+                                        <span class="bar-title">UX Architecture</span>
+                                        <span class="bar-value">80%</span>
+                                    </div>
+                                    <div class="bar-line">
+                                        <span class="bar-fill" data-width="80%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- #skills -->
+            
+
+            
+            <section id="experience" class="section section-experience">
+                <div class="animate-up">
+                    <h2 class="section-title">Work Experience</h2>
+            
+                    <div class="timeline">
+                        <div class="timeline-bar"></div>
+                        <div class="timeline-inner clearfix">
+                            <div class="timeline-box timeline-box-left">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-right">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date">2016 - Current</div>
+                                    <h3>Transamerica</h3>
+                                    <h4>Director, Mobile Development</h4>
+            
+                                    <p>Building a team to build version 2 of our account management application in Cordova, AngularJS, and Ionic. </p>
+                                </div>
+                            </div>
+            
+                            <div class="timeline-box timeline-box-right">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-left">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date">2014 - 2016</div>
+                                    <h3>Transamerica</h3>
+                                    <h4>Director, Web/Mobile Development</h4>
+            
+                                    <p>Conceptualized, planned, and executed responsive designs, architectural frameworks, and services for a wide range of website and mobile properties for sales and marketing.</p>
+                                </div>
+                            </div>
+            
+                            <div class="timeline-box timeline-box-left">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-right">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date">2012 - 2014</div>
+                                    <h3>Transamerica</h3>
+                                    <h4>Director, Web / Mobile Strategy</h4>
+                                    <ul>
+                                        <li>Collaborated with internal customers on marketing technology</li>
+                                        <li>Established foundation for cloud based tag management system to unify disparate marketing systems
+                                            (Salesforce, Hubspot, ExactTarget, Google Analytics, Data Mart) as well as take real time actions in big data initiatives</li>
+                                    </ul>
+                                </div>
+                            </div>
+            
+                            <div class="timeline-box timeline-box-right">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-left">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date">2009 - 2012</div>
+                                    <h3>Transamerica</h3>
+                                    <h4>Senior Developer</h4>
+            
+                                    <p>Designed and built in house technology demonstration platform with full service configuration interface for use with internal and external customers</p>
+                                </div>
+                            </div>
+            
+                            <div class="timeline-box timeline-box-left">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-right">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date">2000 - 2009</div>
+                                    <h3>Transamerica</h3>
+                                    <h4>Software Developer</h4>
+            
+                                    <p>Worked as member of a 4 person team to develop Retiretek (currently OnTrack ®), an interactive retirement forecast modeling engine, Winner of Yahoo 100 best sites</p>
+                                </div>
+                            </div>
+            
+
+                    </div>
+                </div>
+            </section>
+            <!-- #experience -->
+            
+            <section id="education" class="section section-education">
+                <div class="animate-up">
+                    <h2 class="section-title">Education</h2>
+            
+                    <div class="timeline">
+                        <div class="timeline-bar"></div>
+                        <div class="timeline-inner clearfix">
+            
+                            <div class="timeline-box timeline-box-compact timeline-box-left">
+                                <span class="dot"></span>
+            
+                                <div class="timeline-box-inner animate-right">
+                                    <span class="arrow"></span>
+            
+                                    <div class="date"><span>1991 - 1995</span></div>
+                                    <h3>Bachelor of Science in Business Administration in Marketing</h3>
+                                    <h4>Western Carolina University</h4>
+                                </div>
+                            </div>
+            
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="contact" class="section section-contact">
+                <div class="animate-up">
+                    <h2 class="section-title">Contact Me</h2>
+            
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="section-box contact-form">
+                                <h3>Feel free to contact me</h3>
+            
+                                <form class="rsForm" action="php/mailsender.php" method="post">
+                                    <div class="input-field">
+                                        <label>Name</label>
+                                        <input type="text" name="rsName" value="">
+                                        <span class="line"></span>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Email</label>
+                                        <input type="email" name="rsEmail" value="">
+                                        <span class="line"></span>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Subject</label>
+                                        <input type="text" name="rsSubject" value="">
+                                        <span class="line"></span>
+                                    </div>
+            
+                                    <div class="input-field">
+                                        <label>Message</label>
+                                        <textarea rows="4" name="rsMessage"></textarea>
+                                        <span class="line"></span>
+                                    </div>
+            
+                                    <span class="btn-outer btn-primary-outer ripple">
+                                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
+            
+                        <div class="col-sm-6">
+                            <div class="section-box contact-info has-map">
+                                <ul class="contact-list">
+                                    <li class="clearfix">
+                                        <strong>Address</strong>
+                                        <span>6911 Lve Oaks Lane, Waxhaw NC 28173</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <strong>phone</strong>
+                                        <span><a href="tel:+17048064961">704 806 4961</a></span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <strong>E-mail</strong>
+                                        <span><a href="mailto:adamm733@gmail.com">adamm733@gmail.com</a></span>
+                                    </li>
+                                </ul>
+            
+                                <div id="map" data-latitude="34.884434" data-longitude="-80.719248" ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- #contact -->
+            <!-- END: PAGE CONTENT -->
+    
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .content -->
+    
+
+    <!-- .footer -->
+	
+    </div>
+    <!-- .wrapper -->
+    
+    <a class="btn-scroll-top" href="#"><i class="rsicon rsicon-arrow-up"></i></a>
+    
+    <div id="overlay"></div>
+    <div id="preloader">
+        <div class="preload-icon"><span></span><span></span></div>
+        <div class="preload-text">Loading ...</div>
+    </div>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="fonts/map-icons/js/map-icons.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.appear.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.onepagenav.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.mediaelement/mediaelement-and-player.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+    <script type="text/javascript" src="js/site.min.js"></script>
+</body>
+</html>
